@@ -1,42 +1,49 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import { Dropdown, Menu, Icon } from "semantic-ui-react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+import "./Header.css"
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+class Header extends React.Component {
+  constructor(props) {
+    super(props)
+  }
 
-Header.defaultProps = {
-  siteTitle: ``,
+  render() {
+    return (
+      <Menu>
+        <div class="ui inverted compact fixed menu">
+          <Dropdown item icon="bars">
+            <Dropdown.Menu>
+              <Dropdown.Item>
+                <Link to="/">Home</Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link to="/portfolio/">Portfolio</Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link to="/services/">Services</Link>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+
+          <div class="right menu">
+            <div class="header item">
+              <Link to="/">{this.props.siteTitle}</Link>
+            </div>
+          </div>
+          <div class="right menu">
+            <div class="item">
+              <a href="tel:5038946282" class="ui inverted button top-button">
+                <Icon style={{ paddingLeft: "4px" }} name="phone"></Icon>
+                503-894-6282
+              </a>
+            </div>
+          </div>
+        </div>
+      </Menu>
+    )
+  }
 }
 
 export default Header

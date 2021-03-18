@@ -2,20 +2,30 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import AboutMe from "../components/AboutMe"
+
+import HomeVideo from "../videos/abstract-lines.mp4"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div id="home-page">
+      <SEO title="Home" />
+      <div id="loading" class="loading">
+        <div id="vidbox">
+          <div className="video-overlay">
+            <h1>Web Design & Tech Support</h1>
+            <Link to="/portfolio/" className="ui button primary">
+              Click Here To See My Work
+            </Link>
+          </div>
+          <video id="bgvideo" loop autoPlay muted>
+            <source src={HomeVideo} type="video/mp4"></source>
+          </video>
+        </div>
+      </div>
+      <AboutMe></AboutMe>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 

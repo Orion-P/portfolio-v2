@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import "semantic-ui-css/semantic.min.css"
 
 import Header from "./header"
 import "./layout.css"
@@ -26,24 +27,22 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
+
+      <main class="main">{children}</main>
+
+      <footer>
+        <h2>For Business Inquiries</h2>
+        <h5>Phone: 503-894-6282</h5>
+        <h5>Email: orionp.dev@gmail.com</h5>
+
+        <div className="ui button">
+          <a href="tel:5038946282">Call</a>
+        </div>
+
+        <div className="ui button">
+          <a href="mailto:orionp.dev@gmail.com">Email</a>
+        </div>
+      </footer>
     </>
   )
 }

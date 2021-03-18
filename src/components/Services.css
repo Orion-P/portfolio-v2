@@ -1,0 +1,277 @@
+.services {
+  display: inline-flex !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 100px;
+}
+
+.video-overlay.services {
+  margin-top: 210px;
+}
+
+div.service-card *:not(img) {
+  font-size: 27px !important;
+  line-height: 2rem;
+  color: black !important;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+div.ui.card {
+  margin-top: -330px !important;
+  width: auto;
+  height: 50rem;
+  padding: 0px;
+  border-radius: 1%;
+}
+
+div.ui.card > .image {
+  margin: -2px;
+  border-radius: 1% !important;
+}
+
+.hide-on-mobile-serv > .row {
+  display: block !important;
+}
+
+#button-text {
+  font-size: 30px !important;
+  color: white !important;
+  padding-bottom: 30px;
+}
+
+#button-text .phone.icon {
+  color: white !important;
+  margin-right: 20px !important;
+  margin-left: -22px !important;
+}
+
+body {
+  width: 100% !important;
+}
+
+.hide-on-desktop-serv {
+  display: none !important;
+}
+
+#service-header {
+  font-size: 31px !important;
+  padding-top: 10px;
+  height: 60px;
+}
+
+.description {
+  padding-top: 30px !important;
+  margin-bottom: -90px !important;
+}
+
+@media only screen and (max-width: 1800px) {
+  div.service-card *:not(img) {
+    font-size: 22px !important;
+    line-height: 1.7rem;
+    color: black !important;
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+  div.ui.card {
+    height: 760px !important;
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .hide-on-mobile-serv {
+    display: none !important;
+  }
+
+  #hide-on-desktop-serv.hide-on-desktop-serv {
+    display: block !important;
+  }
+
+  .service-card {
+    margin-top: 400px;
+  }
+
+  .service-card > .ui.card {
+    padding-bottom: 10px !important;
+    height: 1000px !important;
+  }
+
+  .panel1 {
+    margin-top: 0px !important;
+  }
+
+  .video-overlay.services {
+    margin-top: -250px;
+  }
+
+  #service-header {
+    font-size: 30px !important;
+  }
+  .content > div.description {
+    font-size: 28px !important;
+  }
+
+  .service-card > .ui.card {
+    padding-bottom: 10px !important;
+    height: 50% !important;
+  }
+  #loading.serv {
+    height: 185rem;
+  }
+
+  .description {
+    padding-top: 20px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #service-header {
+    font-size: 30px !important;
+  }
+  .content > div.description {
+    font-size: 26px !important;
+  }
+  .services {
+    padding: 0px !important;
+    padding-top: 63px !important;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  #loading.serv {
+    height: 185rem;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  #loading.serv {
+    height: 180rem;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  #loading.serv {
+    height: 175rem;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  #loading.serv {
+    height: 170rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  #loading.serv {
+    height: 165rem;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  #loading.serv {
+    height: 160rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #loading.serv {
+    height: 158rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #loading.serv {
+    height: 155rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  #loading.serv {
+    height: 154rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  #loading.serv {
+    height: 153rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #loading.serv {
+    height: 180rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #loading.serv {
+    height: 177rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #loading.serv {
+    height: 174rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  #loading.serv {
+    height: 170rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #loading.serv {
+    height: 165rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  #loading.serv {
+    height: 160rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #loading.serv {
+    height: 155rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #loading.serv {
+    height: 154rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #loading.serv {
+    height: 149rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #loading.serv {
+    height: 147rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #loading.serv {
+    height: 145rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #loading.serv {
+    height: 155rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #loading.serv {
+    height: 155rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #loading.serv {
+    height: 155rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #loading.serv {
+    height: 157rem;
+  }
+}
