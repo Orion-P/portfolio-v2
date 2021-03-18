@@ -39,7 +39,7 @@ export default class Services extends React.Component {
                 className="panel"
                 name="Computer Speedup & Cleanup"
                 image={computerSpeedup}
-                details="As time passes, technology tends to slow down and stop working the way it did at the start. I will check your computer for viruses, remove unneccesary files and programs, and optimize your computer to run at it's top speed."
+                details="As time passes, technology tends to slow down and stop working the way it did at the start. I will check your computer for viruses, remove unnecesary files and programs, and optimize your computer to run at it's top speed."
               ></Service>
             </Grid.Column>
             <Grid.Column width={5}>
@@ -68,7 +68,7 @@ export default class Services extends React.Component {
             className="panel"
             name="Computer Speedup & Cleanup"
             image={computerSpeedup}
-            details="As time passes, technology tends to slow down and stop working the way it did at the start. I will check your computer for viruses, remove unneccesary files and programs, and optimize your computer to run at it's top speed."
+            details="As time passes, technology tends to slow down and stop working the way it did at the start. I will check your computer for viruses, remove unnecesary files and programs, and optimize your computer to run at it's top speed."
           ></Service>
           <Service
             className="panel"
