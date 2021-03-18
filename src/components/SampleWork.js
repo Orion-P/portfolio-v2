@@ -44,23 +44,3 @@ export default class SampleWork extends React.Component {
     )
   }
 }
-
-// <Container>
-// <Header class="header single" as="h4">
-//   Carpet Cleaning Small Business Site
-// </Header>
-// <SampleWork
-//   projectTitle="SteamTeamJW.com"
-//   URL="http://steamteamjw.com"
-//   image={steamTeam}
-// ></SampleWork>
-// </Container>
-// <Dimmer.Dimmable
-// as={Image}
-// dimmed={active}
-// dimmer={{ active, content }}
-// onMouseEnter={this.handleShow}
-// onMouseLeave={this.handleHide}
-// size="large"
-// src={this.props.image}
-// />

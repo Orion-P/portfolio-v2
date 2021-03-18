@@ -1,8 +1,6 @@
 //LIBRARIES
-import React, { useState, useEffect } from "react"
-import { Link } from "gatsby"
-import { Header, Container, Grid, Image } from "semantic-ui-react"
-import Carousel from "react-carousel"
+import React from "react"
+import { Header, Grid } from "semantic-ui-react"
 
 //MY COMPONENTS
 import Layout from "../../components/layout"

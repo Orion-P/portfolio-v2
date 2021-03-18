@@ -156,38 +156,6 @@
   }
 }
 
-/* @media only screen and (max-width: 550px) {
-  .hide-on-mobile {
-    display: none !important;
-  }
-
-  .hide-on-desktop {
-    display: contents !important;
-  }
-
-  .main-grid {
-    padding-right: 5% !important;
-  }
-
-  h1.ui.header {
-    font-size: 40px !important;
-    padding-left: 1% !important;
-  }
-
-  h2.header.single-header {
-    font-size: 25px !important;
-  }
-
-  .video-overlay.portfolio-vidbox {
-    margin-top: 50px !important;
-  }
-
-  main {
-    height: 2900px !important;
-    background: linear-gradient(rgba(63, 63, 63, 0.411), #000000);
-  }
-} */
-
 @media only screen and (max-width: 550px) {
   #loading.port {
     height: 170rem !important;
