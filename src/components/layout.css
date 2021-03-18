@@ -951,8 +951,11 @@ footer * {
   background-color: rgb(5, 78, 5) !important;
 }
 
+#button-text > a.call-now-btn {
+  color: white !important;
+}
+
 * {
-  cursor: none !important;
   -khtml-user-select: none !important;
   -moz-user-select: none !important;
   -o-user-select: none !important;

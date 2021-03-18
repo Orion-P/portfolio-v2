@@ -22,7 +22,10 @@ export default class Service extends React.Component {
 
           <Card.Content extra>
             <Button id="button-text">
-              <i class="phone icon"></i>Call Now
+              <i class="phone icon"></i>
+              <a class="call-now-btn" href="tel:5038946282">
+                Call Now
+              </a>
             </Button>
           </Card.Content>
         </Card>
