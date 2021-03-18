@@ -131,6 +131,11 @@
     font-size: 30px;
     margin-bottom: 25px;
   }
+
+  .portfolio-vidbox h1 {
+    font-size: 40px !important;
+    margin-bottom: -20px !important;
+  }
 }
 
 @media only screen and (max-width: 590px) {
