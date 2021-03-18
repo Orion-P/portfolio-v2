@@ -61,7 +61,7 @@ export default class Services extends React.Component {
             className="panel panel1"
             name="Web Design & SEO"
             image={webDesign}
-            details="I will build you a custom website for you or your business. Search Engine Optimization is the process I use to rank your site on the first page of Google, bringing you tons of new clients every month..
+            details="I will build you a custom website for you or your business. Search Engine Optimization is the process I use to rank your site on the first page of Google, bringing you tons of new clients every month.
                 "
           ></Service>
           <Service
