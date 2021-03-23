@@ -12,6 +12,7 @@
     "gatsby-image": "3.1.0",
     "gatsby-plugin-emotion": "^6.1.0",
     "gatsby-plugin-gatsby-cloud": "2.1.0",
+    "gatsby-plugin-google-gtag": "^3.1.0",
     "gatsby-plugin-less": "5.1.0",
     "gatsby-plugin-manifest": "3.1.0",
     "gatsby-plugin-offline": "4.1.0",
