@@ -5,6 +5,9 @@ To showcase my web development skills
 
 ## Tech Stack
 Gatsby JS
+
 React JS
+
 Semantic UI React
+
 HTML/CSS/JS
