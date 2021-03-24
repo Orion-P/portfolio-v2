@@ -714,7 +714,7 @@ pre tt:after {
   bottom: 0;
   left: 0;
   z-index: 1;
-  margin-bottom: 1px;
+  margin-bottom: -3px;
   padding: 10px;
 }
 
