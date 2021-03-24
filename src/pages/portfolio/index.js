@@ -42,7 +42,7 @@ const Portfolio = props => {
                 <Grid.Column>
                   <SampleWork
                     details="SteamTeamJW.com"
-                    URL="http://steamteamjw.com"
+                    URL="https://steamteamjw.com"
                     image={steamTeam}
                     title="Carpet Cleaning"
                   ></SampleWork>
@@ -130,7 +130,7 @@ const Portfolio = props => {
                 <Grid.Column>
                   <SampleWork
                     details="SteamTeamJW.com"
-                    URL="http://steamteamjw.com"
+                    URL="https://steamteamjw.com"
                     image={steamTeam}
                     title="Carpet Cleaning"
                   ></SampleWork>
