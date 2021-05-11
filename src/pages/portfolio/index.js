@@ -10,7 +10,7 @@ import SEO from "../../components/seo"
 //IMAGES/VIDEOS
 import steamTeam from "../../images/steam-team-front.webp"
 import movieApp from "../../images/movie-app.webp"
-import weightLoss from "../../images/weight-loss-blog.webp"
+import nwBound from "../../images/nw-bound-outdoors.webp"
 import musicPlayer from "../../images/music-player.webp"
 import rps from "../../images/rps.webp"
 import etchSketch from "../../images/etchSketch.webp"
@@ -41,18 +41,19 @@ const Portfolio = props => {
               <Grid.Row>
                 <Grid.Column>
                   <SampleWork
+                    details="NWBoundOutdoors.com"
+                    URL="https://nwboundoutdoors.com"
+                    image={nwBound}
+                    title="Hunting & Fishing Guide"
+                  ></SampleWork>
+                </Grid.Column>
+
+                <Grid.Column>
+                  <SampleWork
                     details="SteamTeamJW.com"
                     URL="https://steamteamjw.com"
                     image={steamTeam}
                     title="Carpet Cleaning"
-                  ></SampleWork>
-                </Grid.Column>
-                <Grid.Column>
-                  <SampleWork
-                    details="Weightlosswithorion.com"
-                    URL="https://weightlosswithorion.com"
-                    image={weightLoss}
-                    title="Weight Loss Blog"
                   ></SampleWork>
                 </Grid.Column>
 
@@ -129,6 +130,16 @@ const Portfolio = props => {
               <Grid.Row>
                 <Grid.Column>
                   <SampleWork
+                    details="NWBoundOutdoors.com"
+                    URL="https://nwboundoutdoors.com"
+                    image={nwBound}
+                    title="Hunting & Fishing Guide"
+                  ></SampleWork>
+                </Grid.Column>
+              </Grid.Row>
+              <Grid.Row>
+                <Grid.Column>
+                  <SampleWork
                     details="SteamTeamJW.com"
                     URL="https://steamteamjw.com"
                     image={steamTeam}
@@ -136,17 +147,6 @@ const Portfolio = props => {
                   ></SampleWork>
                 </Grid.Column>
               </Grid.Row>
-              <Grid.Row>
-                <Grid.Column>
-                  <SampleWork
-                    details="Weightlosswithorion.com"
-                    URL="https://weightlosswithorion.com"
-                    image={weightLoss}
-                    title="Weight Loss Blog"
-                  ></SampleWork>
-                </Grid.Column>
-              </Grid.Row>
-
               <Grid.Row>
                 <Grid.Column>
                   <SampleWork
@@ -177,7 +177,6 @@ const Portfolio = props => {
                   ></SampleWork>
                 </Grid.Column>
               </Grid.Row>
-
               <Grid.Row>
                 <Grid.Column>
                   <SampleWork
