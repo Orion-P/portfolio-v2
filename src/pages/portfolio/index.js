@@ -157,16 +157,16 @@ const Portfolio = props => {
                   ></SampleWork>
                 </Grid.Column>
               </Grid.Row>
-              <Grid.Row>
-                <Grid.Column>
-                  <SampleWork
-                    details="Youtube API"
-                    URL="https://orion-p.github.io/video-browser/"
-                    image={vidBrowser}
-                    title="Video Browser"
-                  ></SampleWork>
-                </Grid.Column>
-              </Grid.Row>
+             // <Grid.Row>
+               // <Grid.Column>
+                 // <SampleWork
+                   // details="Youtube API"
+                   // URL="https://orion-p.github.io/video-browser/"
+                   // image={vidBrowser}
+                   // title="Video Browser"
+                 // ></SampleWork>
+               // </Grid.Column>
+             // </Grid.Row>
               <Grid.Row>
                 <Grid.Column>
                   <SampleWork
